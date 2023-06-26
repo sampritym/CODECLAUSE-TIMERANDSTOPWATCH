@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+input{
+    background-color: rgb(254, 241, 241);
+    color: rgb(12, 11, 11);
+    
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+  max-width: 400px;
+  margin: 47px auto;
+   background-image: linear-gradient(rgb(234, 158, 234),rgb(42, 173, 234));
+  }
+  #hoursInput,#minutesInput,#secondsInput{
+    width: 93px;
+  }
+ 
+  .timer, .stopwatch {
+    margin: 11px;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+  .timer h2, .stopwatch h2 {
+    margin-bottom: 10px;
+  }
+  
+  #timerDisplay, #stopwatchDisplay {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: rgb(227, 218, 218);
+    color: rgb(12, 11, 11);
+    border-radius: 10px;
+    width: 79px;
+  }
+  
